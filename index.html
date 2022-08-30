@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<!-- Global site tag (gtag.js) - Google Analytics G4-->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-EGDELZ6371"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-EGDELZ6371');
+</script>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-185919765-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-185919765-1');
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-KLBJS4J');</script>
+<!-- End Google Tag Manager -->
+
+
+<!--SEO Meta Tags-->
+<title>Divyata's Portfolio Site</title>
+<meta charset="UTF-8">
+<!--Icon of the website-->
+<link rel="icon" href="images/DL_Logo_white.png"  media="(prefers-color-scheme:dark)">
+<link rel="icon" href="images/DL_Logo.png" media="(prefers-color-scheme:light)">
+
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--Mobile Responsive Tag-->
+
+
+<meta name="keywords" content="https://donaldklee.github.io/, donaldklee.github.io, Hi! I'm Divyata, HTML, CSS, JavaScript, Coding, Donald Lee, Highschool Student, High school Student, @donald.k.lee, Donald Kevin Lee, Vancouver Web Developer, Web developer, Vancouver Volunteers, high school coder, XDHacks-Covid, CarePackages4U, XdHacks-Mini-2020, Donald Lee Github">
+<meta name="author" content="Divyata Gosai">
+<meta name="application-name" content="Divyata Gosai's Portfolio Site">
+	
+<meta name="description" content="Hi, there! 👋 I'm Divyata, a University student who enjoys coding! In the future, I want to code something that can help make lives simpler. 👉 Be sure to check out my website! 👈 @2020 Donald Lee"/>
+	
+
+<!--Linkedin-->
+<meta name="title" property="og:title" content="Divyata Gosai's Portfolio Site">
+<meta property="og:type" content="Website">
+<meta property="og:image" content="https://raw.githubusercontent.com/DonaldKLee/donaldklee.github.io/main/images/SEO_BG.PNG" /> 
+<!--Linkedin ^ ^ ^-->
+	
+
+<!--CSS-->
+<link rel="stylesheet" href="CSS/universal.css"> 
+<link rel="stylesheet" href="CSS/home.css"> 
+<link rel="stylesheet" href="CSS/responsive_home.css"> 
+<link id="theme" rel="stylesheet" type="text/css" href="CSS/dark_mode_colours.css"/>
+<link rel="stylesheet" href="CSS/navigationbar.css"> 
+
+<!--Font Awesome-->
+<script src="https://kit.fontawesome.com/ba7447c34f.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KLBJS4J"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- Nav bar -->
+<nav id="top_nav_bar">
+	<ul class="nav_list">
+		<li class="nav_sections"><a href="#home" class="nav_links"><img class="mylogo" src="images/DL_Logo.png" alt="Donald Lee Logo"></a></li>
+		<li class="nav_sections nav_name"><a href="#home" class="nav_links">Divyata Gosai</a></li>
+		
+		<li class="nav_sections nav_right"><a id="contact_nav_link" class="nav_links nav_sections_links" href="#contact">Contact</a></li>
+		<li class="nav_sections nav_right"><a id="projects_nav_link" class="nav_links nav_sections_links" href="#projects">Projects</a></li>
+		<li class="nav_sections nav_right"><a id="experience_nav_link" class="nav_links nav_sections_links" href="#experience">Experience</a></li>
+		<li class="nav_sections nav_right"><a id="about_nav_link" class="nav_links nav_sections_links" href="#about">About</a></li>
+		<li class="nav_sections nav_right"><a id="home_nav_link" class="nav_links nav_sections_links" href="#home">Home</a></li>
+		
+		<!--Dark/Light mode toggle button-->
+		  <button id="entire_ham_menu" class="ham_menu" onclick="animate_ham_menu()">
+			<div id="hammenu_line_one" class="lines"></div>
+			<div id="hammenu_line_two" class="lines"></div>
+			<div id="hammenu_line_three" class="lines"></div>
+		  </button>
+	</ul>
+</nav>
+
+<div id="vnb_blur" onclick="animate_ham_menu()"></div>
+<nav id="vertical_nav_bar">
+	<ul class="ham_ul_nav_list">
+		<li class="ham_li_nav_sections" onclick="animate_ham_menu()"><a id="home_ham_link" class="nav_links" href="#home">Home</a></li>
+		<li class="ham_li_nav_sections" onclick="animate_ham_menu()"><a id="about_ham_link" class="nav_links" href="#about">About</a></li>
+		<li class="ham_li_nav_sections" onclick="animate_ham_menu()"><a id="experience_ham_link" class="nav_links" href="#experience">Experience</a></li>
+		<li class="ham_li_nav_sections" onclick="animate_ham_menu()"><a id="projects_ham_link" class="nav_links" href="#projects">Projects</a></li>
+		<li class="ham_li_nav_sections" onclick="animate_ham_menu()"><a id="contact_ham_link" class="nav_links" href="#contact">Contact</a></li>
+	</ul>
+</nav>
+<!-- Nav bar ^ ^ ^-->
+
+
+<div class="theme_changer">
+	<button id="theme-toggle" class="theme_btn">
+		<div id="theme_moon" class=""><i class="theme_moon fas fa-moon"></i></div>
+		<div id="theme_sun" class=""><i class="theme_sun fas fa-sun"></i></div>
+	</button>
+</div>
+
+
+
+<section id="home" class="page_section top_of_page"></section>
+
+<section class="top_page_home">
+	<div class="profile_picture_container">
+		<img class="home_rounded_image" src="images/divyata_2022.jpg" >
+	</div>
+	
+	<div class="introduction_container">
+		<p class="home_my_name_is theme_text">Hi, my name is</p>
+		<p class="home_name theme_light_blue">Divyata Gosai</p>
+		
+		<p class="changing_home_text section_titles theme_text">I
+			<div id="home_changing_text" class="changing_home_text section_titles theme_text"></div>
+			<div id="blinking_line"></div>
+		</p>
+			
+		<a class="home_button_link white_btn rectangle_btn" href="mailto:divyatagosai99@gmail.com?subject=[Subject Goes Here] - Sent From Divyata Gosai's Portfolio Site&body=Sent from Divyata Gosai's Portfolio Site">
+			<div class= "get_in_touch" >
+				<p>Get In Touch</p>
+			</div>
+		</a>
+	</div>
+</section>
+
+<section id="about" class="page_section about_page">
+	<h1 class="section_titles theme_text">A Little Bit About Myself</h1>
+	<div class="about_intro_container">
+		<p class="about_intro_text body_text theme_text">Hi there, I’m <span class="theme_light_blue"><strong>Divyata Gosai</strong></span> !</br>I am a self-taught programmer and a second year student at the University of Winnipeg with Computer Science major. I have a passion for tech startups and coding projects that can help others make their lives easier. I am a machine learning enthusiast.
+		</p>	
+		</br>
+		
+		<p class="knowledge_title body_text theme_text">Technologies I have worked with:</p>
+		
+		<div class="knowledge_container">
+			<div class="seperate_knowledge_container">
+				<p class="knowledge_column_title theme_text">Web Development</p>
+				<ul>
+					<div class="knowledge_list_item_indent"><li class="knowledge_list_item theme_text">HTML</li></div>
+					<div class="knowledge_list_item_indent"><li class="knowledge_list_item theme_text">CSS</li></div>
+					<div class="knowledge_list_item_indent"><li class="knowledge_list_item theme_text">JavaScript</li></div>
+					<div class="knowledge_list_item_indent"><li class="knowledge_list_item theme_text">Java</li></div>
+					<div class="knowledge_list_item_indent"><li class="knowledge_list_item theme_text">WordPress</li></div>
+					<div class="knowledge_list_item_indent"><li class="knowledge_list_item theme_text">Bootstrap</li></div>
+				</ul>
+			</div>
+			
+			<div class="seperate_knowledge_container">
+				<p class="knowledge_column_title theme_text">Backend Development</p>
+				<ul>
+					<div class="knowledge_list_item_indent"><li class="knowledge_list_item theme_text">Python</li>
+						<ul>
+							<li class="knowledge_list_item nested_knowledge_points theme_text">Web automation</li>
+							<li class="knowledge_list_item nested_knowledge_points theme_text">Web scrapping</li>
+							<li class="knowledge_list_item nested_knowledge_points theme_text">Web frameworks (Flask & Django)</li>
+							<li class="knowledge_list_item nested_knowledge_points theme_text">Google Firebase</li>
+							<li class="knowledge_list_item nested_knowledge_points theme_text">MySQL</li>
+						</ul>
+					</div>
+				</ul>
+			</div>
+	
+		
+		<div class="seperate_knowledge_container">
+			<p class="knowledge_column_title theme_text">Tools</p>
+				<ul>
+					<div class="knowledge_list_item_indent"><li class="knowledge_list_item theme_text">Git</li></div>
+					<div class="knowledge_list_item_indent"><li class="knowledge_list_item theme_text">Git Hub</li></div>
+					<div class="knowledge_list_item_indent"><li class="knowledge_list_item theme_text">MongoDB</li></div>
+					<div class="knowledge_list_item_indent"><li class="knowledge_list_item theme_text">Figma</li></div>
+					<div class="knowledge_list_item_indent"><li class="knowledge_list_item theme_text">Google Analytics</li></div>
+				</ul>
+		</div>
+		
+	</div>
+	<div class="seperate_knowledge_container">
+		<p class="knowledge_column_title theme_text">Skills</p>
+			<ul>
+				<div class="knowledge_list_item_indent"><li class="knowledge_list_item theme_text">Data Structures</li></div>
+				<div class="knowledge_list_item_indent"><li class="knowledge_list_item theme_text">Algorithms</li></div>
+				<div class="knowledge_list_item_indent"><li class="knowledge_list_item theme_text">Problem-solving</li></div>
+				<div class="knowledge_list_item_indent"><li class="knowledge_list_item theme_text">Machine learning</li></div>
+			    <div class="knowledge_list_item_indent"><li class="knowledge_list_item theme_text">Artificial Intelligence</li></div>
+				<div class="knowledge_list_item_indent"><li class="knowledge_list_item theme_text">Object Oriented Programming</li></div>
+			</ul>
+	</div>
+	
+</div>
+</section>
+
+<section id="experience" class="page_section experience_page">
+	<h1 class="section_titles theme_text">Mentorship Experience</h1>
+	
+	<!--
+	
+	- To set the default accordion that will be opened when the page loads
+	- Add id="default_accordion" to the button element of your one desired accordion
+	- If the div element below your button element has the class "accordion_pop_up_transition", remove it, and add id="a_p_u_id"
+	- Note, you can only have 1 default accordion, so ensure that you removed id="a_p_u_id" from other accordions. 
+	- Add the class accordion_pop_up_transition to your past old default accordion, so that it has a transition animation.
+		
+		- By Divyata Gosai :)
+	
+	-->
+	
+<div class="experience_accordion_container">
+	
+		<div class="accordion_top_bottom"></div>
+			<!--One accordion-->
+			<button id="default_accordion" class="accordion"><span class="accordion_heading body_text">Microsoft Intern Engage 2022 @ Microsoft</span></button>
+			
+				<div id="a_p_u_id" class="accordion_pop_up accordion_pop_up_transition">
+					
+					<div class="accordion_content">
+						<p class="body_text theme_text"><span class="theme_light_blue">Microsoft Intern Engage 2022 </span> @ Microsoft</p>
+						<p class="body_text theme_text">June 2022 - July 2022</p>
+						
+						<ul class="accordion_text_lists">
+							<li class="body_text theme_text about_role">A web app built for book lovers with a Book Recommendation engine</li>
+							<li class="body_text theme_text about_role">Made book hybrid recommendation engine for the web app with Django web framework using a machine learning algorithm</li>
+							<li class="body_text theme_text about_role">A hybrid recommendation engine which uses different kinds of machine learning algorithms to provide a user with highly personalized book recommendations </li>
+							<li class="body_text theme_text about_role">Cosine similarity metrics, K-means clustering, and Gaussian mixture modelling used machine learning algorithms</li>
+						</ul>
+					</div>
+
+			<!--One accordion-->
+
+	
+		</div>
+		<div class="accordion_top_bottom"></div>
+	</div>
+</section>
+
+<section id="projects" class="page_section projects_page">
+	<h1 class="section_titles theme_text">Some Things I’ve Built</h1>
+	<p class="projects_intro_text body_text theme_text">Here are just some of the things that I have built. Feel free to check them out! </p>
+
+
+	<ul class="project_filter">
+		<li class="project_filter_item project_filter_active" data-filter="All">All</li>
+		<li class="project_filter_item" data-filter="startup">Mentorship-project</li>
+		<li class="project_filter_item" data-filter="side_project">Side-Projects</li>
+	</ul>
+	
+	<div class="projects_container">
+
+		<!--One Project-->
+		<div class="project startup">
+			<div class="about_project_section">
+				<p class="project_name theme_text"> YourNextReads📚 | Startup</p>
+				<p class="about_project theme_text"> The YourNextReads📚 is a web app built for book lovers with a Book Recommendation engine. A web app uses a hybrid recommendation engine with different machine learning algorithms to power web app's book recommendations. Using data like rating books from a user, Recommendation Engine uses Machine Learning algorithms to provide a user with highly personalized book recommendations.
+				</p>
+				<ul class="project_buttons">
+					<a href="https://github.com/divinelight2002/YourNextReads" target="_blank"><li class="project_buttons_li project_learn_more"><span class="project_learn_more_text">View Project</span><i class="fas fa-angle-double-right"></i></li></a>
+				</ul>
+			</div>
+		</div>
+		<!--One Project ^^^-->
+
+		<!--One Project-->
+		<div class="project startup">
+			<div class="about_project_section">
+				<p class="project_name theme_text">YogaAI | Startup</p>
+				<p class="about_project theme_text">YogaAI is inspired by various Machine Learning models for visual recognition. This is a virtual yoga trainer.</p>
+				<ul class="project_buttons">
+					<a href="https://divinelight2002.github.io/YogaAI/" target="_blank"><li class="project_buttons_li project_learn_more"><span class="project_learn_more_text">View Project</span><i class="fas fa-angle-double-right"></i></li></a>
+				</ul>
+			</div>
+		</div>
+		<!--One Project ^^^-->
+
+		<!--One Project-->
+		<div class="project side_project">	
+			<div class="about_project_section">
+				<p class="project_name theme_text">ChatRoom | Side-Project</p>
+				<p class="about_project theme_text">ChatRoom is single page webapp where its user can choose diffrent chatroom for chatting
+		</p>
+				<ul class="project_buttons">
+					<a href="https://divinelight2002.github.io/Chatroom/"><li class="project_buttons_li project_learn_more"><span class="project_learn_more_text">View Project</span><i class="fas fa-angle-double-right"></i></li></a>
+				</ul>
+			</div>
+		</div>
+		<!--One Project ^^^-->
+	
+		<!--One Project-->
+		<div class="project side_project">
+			<div class="about_project_section">
+				<p class="project_name theme_text">Tic-Tac-Toe AI | Side-Project</p>
+				<p class="about_project theme_text"> Tic-Tac-Toe AI (Artificial Intelligence) with Minimax Algorithm that plays a perfect game for 2 AI players.
+					Which is made with HTML, CSS, Javascript and artificial intelligence, minimax algorithm</p>
+				<ul class="project_buttons">
+					<a href="https://divinelight2002.github.io/Tic-Tac-Toe-AI/"><li class="project_buttons_li project_learn_more"><span class="project_learn_more_text">View Project</span><i class="fas fa-angle-double-right"></i></li></a>
+				</ul>
+			</div>
+		</div>
+		<!--One Project ^^^-->
+	
+	
+		<!--One Project-->
+		<div class="project side_project">
+			<div class="about_project_section">
+				<p class="project_name theme_text">Space Weight 👨🏻‍🚀 | Side-Project</p>
+				<p class="about_project theme_text"></br>Know your weight in different planets, if your earth weight haunts you 😁</br></p>
+				<ul class="project_buttons">
+					<a href="https://divinelight2002.github.io/Space-weight/"><li class="project_buttons_li project_learn_more"><span class="project_learn_more_text">View Project</span><i class="fas fa-angle-double-right"></i></li></a>
+				</ul>
+			</div>
+		</div>
+		<!--One Project ^^^-->
+	
+		<!--One Project-->
+		<div class="project side_project">
+			<div class="about_project_section">
+				<p class="project_name theme_text"> Canada &#127809| Side-Project</p>
+				<p class="about_project theme_text"> This is a responsive website about Canada's diverse culture and religion.</p>
+				<ul class="project_buttons">
+					<a href="giftdex.html"><li class="project_buttons_li project_learn_more"><span class="project_learn_more_text">View Project</span><i class="fas fa-angle-double-right"></i></li></a>
+				</ul>
+			</div>
+		</div>
+	<!--One Project ^^^-->
+
+
+<!--One Project-->
+<div class="project side_project">
+	<div class="about_project_section">
+		<p class="project_name theme_text">Wordbeater-game ⌨️ | Side-Project</p>
+		<p class="about_project theme_text">Simple speed typing app built with JavaScript</p>
+		<ul class="project_buttons">
+			<a href="https://divinelight2002.github.io/Wordbeater-game/"><li class="project_buttons_li project_learn_more"><span class="project_learn_more_text">View Project</span><i class="fas fa-angle-double-right"></i></li></a>
+		</ul>
+	</div>
+</div>
+<!--One Project ^^^-->
+</section>
+
+<!--Footer-->
+<div class="side_items">
+	<div class="side_items_left">
+		<ul class="left_side_logos">
+			<li class="ssm"><a href='https://github.com/divinelight2002' target="_blank"><i class="side_social_media_logo fab fa-github side_github"></i></a></li>
+			<li class="ssm"><a href='https://www.instagram.com/divinelight__2002/' target="_blank"><i class="side_social_media_logo fab fa-instagram"></i></a></li>
+			<li class="ssm"><a href='https://twitter.com/Divyata55564855' target="_blank"><i class="side_social_media_logo fab fa-twitter"></i></a></li>
+			<li class="ssm"><a href='https://www.linkedin.com/in/divyata-gosai-/' target="_blank"><i class="side_social_media_logo fab fa-linkedin"></i></a></li>
+			<li class="ssm"><a href="mailto:divyatagosai99@gmail.com?subject=[Subject Goes Here] - Sent From divyata's Portfolio Site&body=Sent from divyata's Portfolio Site" target="_blank"><i class="side_social_media_logo fas fa-envelope"></i></a></li>
+			<div class="side_left_line"></div>
+		</ul>
+	</div>
+	
+	<div class="side_items_right">
+		<a class="right_side_email ssm theme_text" href="mailto:divyatagosai99@gmail.com?subject=[Subject Goes Here] - Sent From Divyata's Portfolio Site&body=Sent from Divyata's Portfolio Site">divyatagosai99@gmail.com</a>
+		<div class="side_right_line"></div>
+	</div>
+</div>
+
+
+<footer id="contact" class="page_section website_footer">
+	<h1 class="section_titles theme_text">Hi there, thanks for visiting!</h1>
+	<p class="footer_intro_text body_text theme_text">My inbox is always open. Have a question or want to say hi? Free to send me an email, I will try my best to get back to you!</p>
+		
+	<a class="footer_email white_btn rectangle_btn" href="mailto:divyatagosai99@gmail.com?subject=[Subject Goes Here] - Sent From Divyata's Portfolio Site&body=Sent from Divyata's Portfolio Site">
+		<div class="footer_say_hi">
+			<p>Say Hi!</p>
+		</div>
+	</a>
+</footer>
+
+<div class="footer_logos_container">
+		<ul class="footer_logos">
+			<div class="footer_logo_lines"></div>
+			<li class="footer_ssm"><a href='https://github.com/divinelight2002' target="_blank"><i class="side_social_media_logo fab fa-github side_github"></i></a></li>
+			<li class="footer_ssm"><a href='https://www.instagram.com/divinelight__2002/' target="_blank"><i class="side_social_media_logo fab fa-instagram"></i></a></li>
+			<li class="footer_ssm"><a href='https://twitter.com/Divyata55564855' target="_blank"><i class="side_social_media_logo fab fa-twitter"></i></a></li>
+			<li class="footer_ssm"><a href='https://www.linkedin.com/in/divyata-gosai-/' target="_blank"><i class="side_social_media_logo fab fa-linkedin"></i></a></li>
+			<li class="footer_ssm"><a href="mailto:divyatagosai99@gmail.com?subject=[Subject Goes Here] - Sent From Divyata Gosai's Portfolio Site&body=Sent from Divyata Gosai's Portfolio Site" target="_blank"><i class="side_social_media_logo fas fa-envelope"></i></a></li>
+			<div class="footer_logo_lines"></div>
+		</ul>
+	</div>	
+<a class="credit theme_text" href="https://github.com/divinelight2002">Designed and Coded by Divyata Gosai ❤️ </a>
+<!--Footer ^ ^ ^-->
+
+<!--Jquery-->
+<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js" type="text/javascript"></script>
+<script src="https://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript"></script>
+<!--^ ^ ^-->
+
+<script src="JS/js_on_home_page.js"></script>
+<script src="JS/nav_bar_js.js"></script>
+<script src="JS/theme_changer.js"></script>
+
+</body>
+</html>
